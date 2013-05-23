@@ -14,4 +14,4 @@ These scripts are written for Ubuntu 12.04, but could be adapted for other Linux
 
 Any and all tips are greatly appreciated and will be put toward purchasing new hardware.  They can be sent to 16DDesZqSHT2KSYQDiBwJeJxNcpbWcVnRS.
 
-Zero-ASIC
+ZeroASIC
