@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+		
+		<title>bitcoind + eloipool Private Server for Ubuntu Configuration</title>
+		<style type="text/css">
+			body
+			{
+				color: black;
+				background-color: white;
+			}
+			body, td, .normaltext
+			{
+				font-family: Verdana, arial, helvetica, serif;
+				font-size: small;
+			}
+			*, a:link, a:visited, a:hover, a:active
+			{
+				color: black !important;
+			}
+			table
+			{
+				empty-cells: show;
+			}
+			.code
+			{
+				font-size: x-small;
+				font-family: monospace;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.quote
+			{
+				font-size: x-small;
+				border: 1px solid black;
+				margin: 1px;
+				padding: 1px;
+			}
+			.smalltext, .quoteheader, .codeheader
+			{
+				font-size: x-small;
+			}
+			.largetext
+			{
+				font-size: large;
+			}
+			hr
+			{
+				height: 1px;
+				border: 0;
+				color: black;
+				background-color: black;
+			}
+		</style>
+	<style type="text/css"></style></head>
+	<body class=" hasGoogleVoiceExt">
+		<table width="90%" cellpadding="0" cellspacing="0" border="0">
+			<tbody><tr>
+				<td>
+					<hr size="2" width="100%" />
+					<h2>eloipool + bitcoind Ubuntu 12.04 Private Server Installation Notes</h2>
+					<b>Last updated</b> on <b>March 31, 2013</b>
+					<hr />
+					<div style="margin: 0 5ex;">
+						<h2>Notes for Ubuntu 12.04</h2>
+						Expand the archive and edit the config files.  Then run the 'Double click to start install.sh' followed by scripts/startpool.sh to start the server.<br />
+						<h3>Tips:</h3>
+						<li>Edit the bitcoin.conf in eloipool-server/bitcoindata and change the RPC password to something unique and secure. (Use: $ apg)</li>
+						<li>Edit eloipool/config.py and update the rpcuser and password to match bitcoin.conf.</li>
+						<li>Remember to update the TrackerAddr in eloipool/config.py to a valid wallet address.</li>
+						<li>Think about setting the log backupCount in eloipool/config.py to 1.</li>
+						<li>Run eloipool-server/scripts/startpool.sh to start the server.  It can be run when the user logs in or from cron.</li>
+						<li>The pool username and password can be anything.</li>
+						<li>If you're using a Linux Disribution other than Ubuntu, comment out the lines that have the command 'sed' in them, remove the double click script and ubuntu-install.sh.</li>
+						<li>For more information check <a href="https://bitcointalk.org/index.php?topic=158105.0">https://bitcointalk.org/index.php?topic=158105.0</a>.</li>
+						<br />
+						<br />
+						Any and all tips are greatly appreciated and will be put toward purchasing new hardware.<br />
+						They can be sent to: <a href="bitcoin:16DDesZqSHT2KSYQDiBwJeJxNcpbWcVnRS" target="_blank">16DDesZqSHT2KSYQDiBwJeJxNcpbWcVnRS</a><br />
+						<br />
+						Zero-ASIC
+					</div>
+					<br>
+					<hr size="2" width="100%">
+				</td>
+			</tr>
+		</tbody></table>
+	
+</body></html>
