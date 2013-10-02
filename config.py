@@ -57,7 +57,7 @@ IdleSleepTime = 0.1
 
 # Address to generate rewards to
 # NOTE: TrackerAddr can be any version 0 address (ie, no P2SH yet).
-TrackerAddr = '16DDesZqSHT2KSYQDiBwJeJxNcpbWcVnRS'  # https://blockchain.info/wallet/user
+TrackerAddr = '1HXkfPiorRq2BxJYHKoWdBWYk5Q1KwWNT7'  # https://blockchain.info/wallet/user
 #TrackerAddr = '16DDesZqSHT2KSYQDiBwJeJxNcpbWcVnRS' # Local bitcoind wallet.
 
 # Coinbaser command to control reward delegation
