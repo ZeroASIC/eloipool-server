@@ -13,13 +13,13 @@ wait
 mkdir logs
 wait
 echo "Downloading Source."
-git clone git://github.com/jgarzik/python-bitcoinrpc.git
+git clone https://github.com/jgarzik/python-bitcoinrpc.git
 wait
-git clone git://gitorious.org/bitcoin/python-base58.git
+git clone https://gitorious.org/bitcoin/python-base58.git
 wait
-git clone git://gitorious.org/midstate/midstate.git
+git clone https://gitorious.org/midstate/midstate.git
 wait
-git clone git://gitorious.org/bitcoin/eloipool.git
+git clone https://gitorious.org/bitcoin/eloipool.git
 wait
 
 echo "Compiling Source."
