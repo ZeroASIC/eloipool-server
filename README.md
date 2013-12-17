@@ -1,7 +1,7 @@
 eloipool-server
 ===============
 
-eloipool install scripts for Ubuntu and Linux
+eloipool install scripts for Ubuntu 12.04 and Linux
 
 
 Installation information is in documentation/Installation Notes.html.
