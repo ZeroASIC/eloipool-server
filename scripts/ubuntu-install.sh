@@ -10,7 +10,7 @@ sudo add-apt-repository ppa:bitcoin/bitcoin
 wait
 sudo apt-get update
 wait
-sudo apt-get install bitcoind python3 python3-dev python-requests build-essential git
+sudo apt-get install bitcoind python3 python3-dev python3.2-dev python-requests build-essential git
 wait
 
 $DIR/installpool.sh
