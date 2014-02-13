@@ -65,14 +65,14 @@
 						<h2>Notes for Ubuntu 12.04</h2>
 						Expand the archive and edit the config files.  Then run the 'Double click to start install.sh' followed by scripts/startpool.sh to start the server.<br />
 						<h3>Tips:</h3>
+						<li>Remember to update the TrackerAddr in eloipool/config.py to a valid wallet address.</li>
 						<li>Edit the bitcoin.conf in eloipool-server/bitcoindata and change the RPC password to something unique and secure. (Use: $ apg)</li>
 						<li>Edit eloipool/config.py and update the rpcuser and password to match bitcoin.conf.</li>
-						<li>Remember to update the TrackerAddr in eloipool/config.py to a valid wallet address.</li>
 						<li>Think about setting the log backupCount in eloipool/config.py to 1.</li>
 						<li>Run scripts/startpool.sh to start the server.  It can be run when the user logs in or from cron.</li>
 						<li>The pool username and password can be anything.</li>
 						<li>If you're using a Linux Disribution other than Ubuntu, comment out the lines that have the command 'sed' in them, remove the double click script and ubuntu-install.sh.</li>
-						<li>For more information check <a href="https://bitcointalk.org/index.php?topic=158105.0">https://bitcointalk.org/index.php?topic=158105.0</a>.</li>
+						<li>If you're having problems connecting to the pool make sure that bitcoind has finished syncing to the network and then either restart the machine completely or kill any of the erroneous processes that you may have started and try it again.</li>
 						<br />
 						<br />
 						Any donations will help me dedicate more time to development and would be greatly appreciated.<br />
